@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  /* line-height: 1.6em; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section-main {
+  height: 100vh;
+ padding-top: 313px;
+  box-sizing: border-box;
+  background-image: url(./../../images/beach.jpg);
+  background-size: cover;
+  background-position: right;
+color: #926239;
+text-align: center;
+
+}
+.main-header {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  line-height: 1.2em;
+}
+.subtitle {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+}
+.read-more { 
+  display: inline-block;
+  width: 90px;
+  height: 29px;
+text-transform: capitalize;
+box-sizing: content-box;
+line-height: 29px;
+ font-size: 18px;
+    text-decoration: none;
+    color: #926239;
+    border: #926239 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.section-content {
+  line-height: 1.6em;
+   font-size: 17px;
+}
+.white {
+  padding: 20px;
+  color:#926239 ;
+  background-color: white;
+}
+.brown {
+  padding: 20px;
+  color:white;
+  background-color:#926239;
+}
+.text-owerflow{
+   text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.align-center{
+  text-align: center;
+
+}
+.align-left{
+  display: inline-block;
+  width: 527px;
+  height: 122px;
+  box-sizing: border-box;
+  text-align: left;
+
+}
+.bg-light{
+background-color: #f4f4f4;
+}
